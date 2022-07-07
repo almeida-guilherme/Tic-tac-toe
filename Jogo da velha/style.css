@@ -1,0 +1,62 @@
+body{
+    margin-top: 160px;
+    text-align: center;
+    background-image: url("./Assets/index.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "🐧";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "🪟";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#botao{
+    border: none;
+    background-color: purple;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#botao a{
+    text-decoration: none;
+    color:rgba(147, 221, 147);
+}
